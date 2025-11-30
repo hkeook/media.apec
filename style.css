@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0e0e0e; /* фон всей страницы */
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Шапка */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white; /* фон шапки изменен на белый */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+    color: red; /* текст заголовка красный */
+}
+
+header p {
+    font-size: 24px;
+    margin-top: 20px;
+    opacity: 0.9;
+    color: red; /* текст параграфа красный */
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: red; /* ссылки красные */
+    font-weight: 600;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
