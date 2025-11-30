@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0e0e0e;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Шапка */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6C63FF, #B84EFF);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 24px;
+    margin-top: 20px;
+    opacity: 0.9;
+}
